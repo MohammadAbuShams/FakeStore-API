@@ -1,0 +1,57 @@
+<div class="pagination-container">
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+
+        <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+    </ul>
+</div>
+
+<style>
+
+    .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    display: block;
+    padding: 10px 15px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+    color: #ccc;
+    cursor: not-allowed;
+    border-color: #ddd;
+}
+</style>
