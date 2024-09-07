@@ -18,3 +18,7 @@ This project utilizes the FakeStore API to fetch product data and display it dyn
 - **HTML/CSS**: Used for structuring and styling the webpage.
 
 
+## Live Demo
+
+Check out the live demo of the project [here](https://mohammadabushams.github.io/FakeStore-API-in-JS/#).
+
