@@ -20,5 +20,5 @@ This project utilizes the FakeStore API to fetch product data and display it dyn
 
 ## Live Demo
 
-Check out the live demo of the project here: [FakeStote API](https://mohammadabushams.github.io/FakeStore-API-in-JS/#).
+Check out the live demo of the project here: [FakeStote API](https://mohammadabushams.github.io/FakeStore-API-in-JS/#)
 
